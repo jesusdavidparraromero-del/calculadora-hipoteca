@@ -1,0 +1,13 @@
+function calcular() {
+let P = document.getElementById("prestamo").value;
+let interes = document.getElementById("interes").value;
+let anos = document.getElementById("anos").value;
+
+let r = interes / 100 / 12;
+let n = anos * 12;
+
+let M = P * (r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+
+document.getElementById("resultado").innerText =
+"Cuota mensual: " + M.toFixed(2) + " €";
+}
