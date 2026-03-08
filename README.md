@@ -1,2 +1,2 @@
 # calculadora-hipoteca
-Simula tu hipoteca, cambio de condiciones, y el ahorro que podrías tener con nuestra calculadora financiera gratuita. Calcula tu cuota mensual y pago total. 
+Simulador de hipotecas.Ten un control de cuotas, pagos mensuales y totales; conoce el préstamo que podrías asumir y los gastos que debes de conocer.
